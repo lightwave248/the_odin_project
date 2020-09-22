@@ -1,0 +1,28 @@
+html {
+    text-align: center;         /* Centers all elements in middle of browser */
+}
+h1 {
+    color: black;
+    font-size: 12px;            /* Change size of h1 to 10 */
+    font-weight: normal;        /* Removed bold from h1 */
+    text-align: justify;        /* Re-aligned h1 to left side */
+}
+a {
+    color: black;             /* Change hyperlink text to black*/
+    text-decoration: none;      /* Remove Underline */
+    margin-right: 15px;         /* Added margin between links in header */
+}
+
+h3 {
+    margin-top: 150px;
+    margin-bottom: 0px;
+
+}
+body {
+}
+textarea {
+    color: gray;
+}
+textarea:hover {
+    box-shadow: 0 2px 5px rgba(190, 190, 190, 0.61);
+}
