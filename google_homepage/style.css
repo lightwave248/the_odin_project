@@ -32,6 +32,11 @@ li {
     text-align: right;
     float: right;
 }
+.nineboxes {
+    border-width: 0px;;
+    background-color: white;
+    display: block;
+}
 .Images {
     margin-right: 0px;
 }
