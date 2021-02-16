@@ -28,18 +28,19 @@ li {
     float: left;
     padding-left: 5px
 }
-#rightheader {
-    text-align: right;
+.googleapp {
+    /* position: absolute; */
     float: right;
+    margin-top: 0px;
 }
-.nineboxes {
-    border-width: 0px;;
-    background-color: white;
-    display: block;
+#rightheader {
+    margin-top: 0px;
+    float: right;
+    /*padding-right: 30px; */
 }
-.Images {
+/*.Images {
     margin-right: 0px;
-}
+} */
 h3 {
     padding-top: 150px;
     margin-top: 0px;
@@ -55,6 +56,23 @@ textarea {
     resize: none;
     text-align: justify;
 }
-textarea:hover {
-    box-shadow: 0 2px 5px rgba(190, 190, 190, 0.61);
+textarea {
+    box-shadow: 0 5px 10px rgba(190, 190, 190, 0.61);
+    border-radius: 100px;
+    outline: none;
+    text-indent: 10px;
+    height: 30px;
+    margin-bottom: 5px;
+    border-color: lightgray;
+}
+.customize {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    right: 0;
+    margin-right: 20px;
+    box-shadow: 0 5px 10px rgba(190, 190, 190, 0.61);
+    border-radius: 100px;
+    height: 30px;
+    
 }
